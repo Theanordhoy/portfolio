@@ -1,5 +1,5 @@
 .project-image {
-    width: 340px;
+    width: 320px;
 }
 
 body {
@@ -54,7 +54,7 @@ main {
 
  .project-card {
     border: 1px solid #4F2969;
-    width: 342px;
+    width: 322px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -162,6 +162,69 @@ p {
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    
+    justify-content: center;
+}
+
+.portfolio-image {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.intro-content,
+.contact-content {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.about-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-content {
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .intro-content,
+    .contact-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-image {
+        width: 200px;
+    }
+
+    .header-items {
+        padding: 10px 20px;
+    }
+
+    .portfolio-h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+
+    .intro,
+    .about,
+    .project,
+    .contact {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .about-skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 20px;
+    }
+
+    .about-buttons {
+        justify-content: center;
+    }
 }
 
