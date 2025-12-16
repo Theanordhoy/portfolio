@@ -219,6 +219,7 @@ p {
     gap: 20px;
     align-items: center;
     justify-content: center;
+    width: 170px;
 }
 
 .portfolio-image {
@@ -246,6 +247,11 @@ p {
 .contact-email {
     padding: 10px;
     border: 1px solid #4F2969;
+    margin: 0;
+}
+
+.contact-button {
+    width: 190px;
 }
 
 .footer-text {
