@@ -151,6 +151,10 @@ main {
     margin: 10px 0;
 }
 
+.project-card__info {
+    font-size: 0.875rem;
+}
+
 .project,
 .contact {
     flex-direction: column;
@@ -215,6 +219,7 @@ p {
 .about-buttons {
     display: flex;
     gap: 10px;
+    margin-top: 10px;
 }
 
 .contact-content {
