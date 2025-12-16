@@ -114,6 +114,17 @@ main {
     border-image: linear-gradient(90deg, #4F2969 0%, #7A4A97 50%, #C65488 100%) 1;
 }
 
+#about,
+#contact,
+#projects {
+    margin-bottom: 40px;
+}
+
+.about-pdf__info {
+    margin-bottom: 0;
+    font-size: 0.875rem;
+}
+
 .about {
     display: flex;
     flex-direction: column;
@@ -131,11 +142,17 @@ main {
 .project,
 .contact {
     display: flex;
-    min-height: 700px;
+    min-height: 750px;
     padding: 40px;
     width: 80%;
     margin: 0 auto;
     justify-content: center;
+}
+
+#about,
+#projects,
+#contact {
+    align-self: center;
 }
 
 .project-card__button {
@@ -222,8 +239,19 @@ p {
     margin-top: 10px;
 }
 
-.contact-content {
-    margin-top: 40px;
+.about-info {
+    margin-top: 0;
+}
+
+.contact-email {
+    padding: 10px;
+    border: 1px solid #4F2969;
+}
+
+.footer-text {
+    font-size: 0.75rem;
+    text-align: right;
+    padding: 10px 20px;
 }
 
 @media (max-width: 768px) {
@@ -265,6 +293,10 @@ p {
 
     .about-buttons {
         justify-content: center;
+    }
+
+    .about-pdf__info {
+        text-align: center;
     }
 }
 
